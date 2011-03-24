@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- ConversionService für den internen Einsatz in dem "großen" C-Service -->
+	<bean id="conversionServiceIntern" class="org.springframework.context.support.ConversionServiceFactoryBean">
+		<qualifier value="inner"/>
+	</bean>
+	
+	<bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+		<qualifier value="main"/>
+		<property name="converters">
+			<list>
+				<bean class="de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject" init-method="init">
+					<property name="gdbs" ref="graphDatabaseService" />
+					<property name="finderFactory" ref="finderFactory" />
+					<property name="dbmaster" ref="dbmaster" />
+					<constructor-arg name="cservice" ref="conversionServiceIntern" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

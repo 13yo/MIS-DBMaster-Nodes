@@ -1,0 +1,161 @@
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@21ff3
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value DBsDTO: DTO-Type=DBs DTO-ID:173633 of de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsDTO to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject.convert]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsDTO: DTO-Type=DBs DTO-ID:173633
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBiF for node: Node[13]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF no-arg constructor
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF]. Proceeding without injection.
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBsE for node: Node[139249]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE no-arg constructor
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
+DEBUG main org.springframework.integration.channel.QueueChannel - preSend on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG main org.springframework.integration.channel.QueueChannel - postSend (sent=true) on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 org.springframework.integration.channel.QueueChannel - postReceive on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - preSend on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - amqpOutboundGateway received message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Executing callback on RabbitMQ Channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,6)
+DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Publishing message on exchange [], routingKey = [queue.request]
+DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - handler 'amqpOutboundGateway' sending reply Message: [Payload=DBsEDTO: DTO-Type=DBsE DTO-ID:167175][Headers={timestamp=1300986340837, id=b017617c-5373-4507-85a9-47cc7ff5fb91, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsEDTO: DTO-Type=DBsE DTO-ID:167175
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBi for node: Node[12]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi no-arg constructor
+DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - postSend (sent=true) on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167175
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE; created Node [Node[139252]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[8] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139247
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.s with value 18514
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.id with value 167175
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.lastUpdated with value 2011-02-11 20:09:16.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:16.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451356000'
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.dateCreated with value 2011-02-11 20:09:16.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:16.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451356000'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs]. Proceeding without injection.
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs; created Node [Node[139253]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[11] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139248
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.id with value 173633
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.lang.String de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.xmlString with value <item>30417</item><ibarcode>00384957</ibarcode><bib>24388</bib><status wert='i'></status><ruecken><breiteMm>10.0</breiteMm><hoeheMm>219.0</hoeheMm></ruecken>
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.lastUpdated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.dateCreated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@21ff5
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value DBsDTO: DTO-Type=DBs DTO-ID:173634 of de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsDTO to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject.convert]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsDTO: DTO-Type=DBs DTO-ID:173634
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBiF for node: Node[17]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF no-arg constructor
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF]. Proceeding without injection.
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBsE for node: Node[139249]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE no-arg constructor
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
+DEBUG main org.springframework.integration.channel.QueueChannel - preSend on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG main org.springframework.integration.channel.QueueChannel - postSend (sent=true) on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.integration.channel.QueueChannel - postReceive on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - preSend on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - amqpOutboundGateway received message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Executing callback on RabbitMQ Channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,6)
+DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Publishing message on exchange [], routingKey = [queue.request]
+DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - handler 'amqpOutboundGateway' sending reply Message: [Payload=DBsEDTO: DTO-Type=DBsE DTO-ID:167176][Headers={timestamp=1300986341056, id=c832981c-73b2-4d63-949d-cbbe947086d0, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - postSend (sent=true) on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167176
+clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
+][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsEDTO: DTO-Type=DBsE DTO-ID:167176
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBi for node: Node[16]
+INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi no-arg constructor
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi]. Proceeding without injection.
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE; created Node [Node[139254]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[8] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139249
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.s with value 18514
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.id with value 167176
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.lastUpdated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.dateCreated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs]. Proceeding without injection.
+INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs; created Node [Node[139255]]; Updating metamodel
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[11] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139250
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.id with value 173634
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.lang.String de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.xmlString with value 30417
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.lastUpdated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.dateCreated with value 2011-02-11 20:09:17.0
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
+DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
