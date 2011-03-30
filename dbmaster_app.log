@@ -1,161 +1,460 @@
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[292]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[292] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@124
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[290]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[290] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@122
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0126045852 erstellt für Set mit ID 96821
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[288]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[288] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@120
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[285]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[285] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@11d
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[283]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[283] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@11b
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[281]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[281] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@119
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[278]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[278] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@116
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[276]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[276] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@114
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3527277293 erstellt für Set mit ID 96813
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[274]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[274] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@112
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[271]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[271] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@10f
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[269]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[269] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@10d
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3519035316 erstellt für Set mit ID 96809
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[267]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[267] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@10b
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[264]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[264] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@108
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[262]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[262] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@106
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3798509441 erstellt für Set mit ID 96805
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0387914773 erstellt für Set mit ID 96805
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[260]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[260] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@104
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[257]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[257] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@101
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[255]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[255] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ff
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=354059311X erstellt für Set mit ID 96801
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[253]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[253] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@fd
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[250]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[250] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@fa
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[248]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[248] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@f8
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540941770 erstellt für Set mit ID 96797
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0387941770 erstellt für Set mit ID 96797
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[246]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[246] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@f6
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[243]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[243] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@f3
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[241]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[241] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@f1
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=1555811361 erstellt für Set mit ID 96793
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[239]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[239] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ef
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[236]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[236] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ec
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[234]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[234] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ea
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540581863 erstellt für Set mit ID 96788
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0387581863 erstellt für Set mit ID 96788
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[232]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[232] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@e8
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[229]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[229] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@e5
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[227]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[227] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@e3
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540603069 erstellt für Set mit ID 96784
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[225]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[225] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@e1
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[222]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[222] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@de
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[220]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[220] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@dc
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0521781221 erstellt für Set mit ID 96780
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[218]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[218] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@da
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[215]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[215] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@d7
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[213]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[213] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@d5
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540643338 erstellt für Set mit ID 96775
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=9783540643333 erstellt für Set mit ID 96775
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[211]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[211] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@d3
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[208]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[208] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@d0
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[206]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[206] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ce
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540636226 erstellt für Set mit ID 96771
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[204]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[204] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@cc
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[201]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[201] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@c9
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[199]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[199] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@c7
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0824797590 erstellt für Set mit ID 96767
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[197]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[197] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@c5
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[194]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[194] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@c2
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[192]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[192] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@c0
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0195091191 erstellt für Set mit ID 96763
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[190]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[190] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@be
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[187]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[187] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@bb
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[185]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[185] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@b9
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0125769709 erstellt für Set mit ID 96759
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[183]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[183] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@b7
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[180]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[180] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@b4
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[178]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[178] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@b2
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[176]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[176] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@b0
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[173]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[173] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ad
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[171]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[171] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@ab
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0521540771 erstellt für Set mit ID 96751
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0521833329 erstellt für Set mit ID 96751
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[169]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[169] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@a9
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[166]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[166] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@a6
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[164]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[164] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@a4
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0198564732 erstellt für Set mit ID 96747
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[162]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[162] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@a2
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[159]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[159] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@9f
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[157]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[157] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@9d
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0127022805 erstellt für Set mit ID 96743
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[155]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[155] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@9b
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[152]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[152] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@98
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[150]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[150] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@96
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0256119392 erstellt für Set mit ID 96739
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[148]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[148] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@94
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[145]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[145] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@91
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[143]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[143] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@8f
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0849383323 erstellt für Set mit ID 96735
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[141]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[141] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@8d
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[138]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[138] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@8a
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[136]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[136] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@88
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0471983098 erstellt für Set mit ID 96731
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[134]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[134] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@86
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[131]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[131] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@83
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[129]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[129] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@81
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0122100107 erstellt für Set mit ID 96727
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[127]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[127] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@7f
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[124]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[124] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@7c
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[122]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[122] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@7a
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0817640878 erstellt für Set mit ID 96723
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[120]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[120] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@78
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[117]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[117] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@75
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[115]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[115] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@73
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540442197 erstellt für Set mit ID 96719
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[113]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[113] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@71
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[110]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[110] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@6e
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[108]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[108] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@6c
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0824799399 erstellt für Set mit ID 96715
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[106]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[106] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@6a
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[103]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[103] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@67
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[101]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[101] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@65
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3540672753 erstellt für Set mit ID 96711
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[99]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[99] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@63
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[96]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[96] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@60
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[94]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[94] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@5e
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=9783642112478 erstellt für Set mit ID 96707
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=9783642112485 erstellt für Set mit ID 96707
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[92]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[92] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@5c
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[89]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[89] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@59
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[87]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[87] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@57
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0387983651 erstellt für Set mit ID 96703
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[85]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[85] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@55
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[82]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[82] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@52
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[80]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[80] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@50
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0387581219 erstellt für Set mit ID 96699
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[78]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[78] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@4e
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[75]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[75] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@4b
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[73]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[73] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@49
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0198536747 erstellt für Set mit ID 96695
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[71]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[71] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@47
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[68]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[68] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@44
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[66]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[66] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@42
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=1558995633 erstellt für Set mit ID 96691
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[64]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[64] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@40
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[61]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[61] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@3d
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[59]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[59] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@3b
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0471330019 erstellt für Set mit ID 96687
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[57]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[57] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@39
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[54]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[54] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@36
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[52]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[52] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@34
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=1852338040 erstellt für Set mit ID 96683
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[50]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[50] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@32
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[47]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[47] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@2f
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[45]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[45] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@2d
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3527292950 erstellt für Set mit ID 96679
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[43]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[43] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@2b
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[40]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[40] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@28
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[38]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[38] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@26
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=3764337354 erstellt für Set mit ID 96675
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0817637354 erstellt für Set mit ID 96675
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[36]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[36] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@24
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[33]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[33] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@21
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[31]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[31] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@1f
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[29]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[29] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@1d
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[26]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[26] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@1a
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[24]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[24] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@18
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0883187078 erstellt für Set mit ID 96667
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[22]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[22] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@16
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[19]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[19] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@13
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[15]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[15] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@f
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=0898716640 erstellt für Set mit ID 96664
+DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.services.IndexService - Index isbn=9780898716641 erstellt für Set mit ID 96664
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBs for node: Node[10]
+DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Converting node: Node[10] to entity: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@a
 DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@21ff3
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value DBsDTO: DTO-Type=DBs DTO-ID:173633 of de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsDTO to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject.convert]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
-DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsDTO: DTO-Type=DBs DTO-ID:173633
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBiF for node: Node[13]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF no-arg constructor
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF]. Proceeding without injection.
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBsE for node: Node[139249]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE no-arg constructor
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
-DEBUG main org.springframework.integration.channel.QueueChannel - preSend on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG main org.springframework.integration.channel.QueueChannel - postSend (sent=true) on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 org.springframework.integration.channel.QueueChannel - postReceive on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340696, id=5bc04eef-83ab-4a50-bc08-04126310a601, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - preSend on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - amqpOutboundGateway received message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Executing callback on RabbitMQ Channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,6)
-DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Publishing message on exchange [], routingKey = [queue.request]
-DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - handler 'amqpOutboundGateway' sending reply Message: [Payload=DBsEDTO: DTO-Type=DBsE DTO-ID:167175][Headers={timestamp=1300986340837, id=b017617c-5373-4507-85a9-47cc7ff5fb91, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsEDTO: DTO-Type=DBsE DTO-ID:167175
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBi for node: Node[12]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi no-arg constructor
-DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - postSend (sent=true) on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167175
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340821, id=0164a2c5-e6c4-47f9-ad34-ed53ab3eda25, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@ae44ad}]
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi]. Proceeding without injection.
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE; created Node [Node[139252]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[8] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139247
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.s with value 18514
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.id with value 167175
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.lastUpdated with value 2011-02-11 20:09:16.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:16.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451356000'
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139252] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.dateCreated with value 2011-02-11 20:09:16.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:16.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451356000'
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs]. Proceeding without injection.
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs; created Node [Node[139253]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[11] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139248
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.id with value 173633
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.lang.String de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.xmlString with value <item>30417</item><ibarcode>00384957</ibarcode><bib>24388</bib><status wert='i'></status><ruecken><breiteMm>10.0</breiteMm><hoeheMm>219.0</hoeheMm></ruecken>
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.lastUpdated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139253] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.dateCreated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs@21ff5
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value DBsDTO: DTO-Type=DBs DTO-ID:173634 of de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsDTO to de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Creating new transaction with name [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject.convert]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
-DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsDTO: DTO-Type=DBs DTO-ID:173634
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBiF for node: Node[17]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF no-arg constructor
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBiF]. Proceeding without injection.
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBsE for node: Node[139249]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE no-arg constructor
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
-DEBUG main org.springframework.integration.channel.QueueChannel - preSend on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG main org.springframework.integration.channel.QueueChannel - postSend (sent=true) on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.integration.channel.QueueChannel - postReceive on channel 'dbmasterToJmsChannel', message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - org.springframework.integration.handler.BridgeHandler#0 received message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986340946, id=37b94d92-b091-4585-ab85-e379440dff3c, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.integration.handler.BridgeHandler - handler 'org.springframework.integration.handler.BridgeHandler#0' sending reply Message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - preSend on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - amqpOutboundGateway received message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Executing callback on RabbitMQ Channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,6)
-DEBUG taskScheduler-3 org.springframework.amqp.rabbit.core.RabbitTemplate - Publishing message on exchange [], routingKey = [queue.request]
-DEBUG taskScheduler-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPOutboundGateway - handler 'amqpOutboundGateway' sending reply Message: [Payload=DBsEDTO: DTO-Type=DBsE DTO-ID:167176][Headers={timestamp=1300986341056, id=c832981c-73b2-4d63-949d-cbbe947086d0, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG taskScheduler-3 org.springframework.integration.channel.DirectChannel - postSend (sent=true) on channel 'dbmasterToJmsChannelDispatcher', message: [Payload=id: (java.lang.Long) 167176
-clazz: (java.lang.Class) class de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsEDTO
-][Headers={timestamp=1300986341040, id=38178472-8252-4340-b3d4-e8a9ca088a6e, errorChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44, serviceMethod=getDTOByID, replyChannel=org.springframework.integration.core.MessagingTemplate$TemporaryReplyChannel@120fd44}]
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject - Converting: DBsEDTO: DTO-Type=DBsE DTO-ID:167176
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Found class DBi for node: Node[16]
-INFO main org.springframework.data.graph.neo4j.support.node.Neo4jConstructorGraphEntityInstantiator - Using class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi no-arg constructor
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBi]. Proceeding without injection.
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE]. Proceeding without injection.
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE; created Node [Node[139254]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[8] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139249
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.s with value 18514
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.id with value 167176
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.lastUpdated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139254] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBsE.dateCreated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.wiring.BeanConfigurerSupport - BeanFactory has not been set on BeanConfigurerSupport: Make sure this configurer runs in a Spring container. Unable to configure bean of type [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs]. Proceeding without injection.
-INFO main org.springframework.data.graph.neo4j.fieldaccess.DefaultEntityState - User-defined constructor called on class class de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs; created Node [Node[139255]]; Updating metamodel
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - Created link to subref node: Node[11] with type: de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs
-DEBUG main org.springframework.data.graph.neo4j.support.SubReferenceNodeTypeStrategy - count on ref Node[3] for class Object = 139250
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.lang.Long de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.id with value 173634
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.lang.String de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.xmlString with value 30417
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.lastUpdated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.data.graph.neo4j.fieldaccess.DetachedEntityState - Flushing dirty Entity new node Node[139255] field private java.util.Date de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.DBs.dateCreated with value 2011-02-11 20:09:17.0
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converting value 2011-02-11 20:09:17.0 of java.sql.Timestamp to java.lang.String
-DEBUG main org.springframework.core.convert.support.GenericConversionService - Converted to '1297451357000'
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Participating in existing transaction
-DEBUG main org.springframework.transaction.jta.JtaTransactionManager - Initiating transaction commit
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Receiving message from consumer.
+DEBUG main org.springframework.test.context.support.DirtiesContextTestExecutionListener - After test method: context [[TestContext@26d4f1 testClass = IndexTest, locations = array<String>['classpath:/META-INF/testContext.xml'], testInstance = de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.IndexTest@1662dc8, testMethod = addIsbnToHorizonItem@IndexTest, testException = [null]]], class dirties context [false], class mode [null], method dirties context [false].
+DEBUG main org.springframework.test.context.support.DirtiesContextTestExecutionListener - After test class: context [[TestContext@26d4f1 testClass = IndexTest, locations = array<String>['classpath:/META-INF/testContext.xml'], testInstance = [null], testMethod = [null], testException = [null]]], dirtiesContext [false].
+INFO Thread-3 org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@2808b3: startup date [Wed Mar 30 14:59:50 CEST 2011]; root of context hierarchy
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'logger.adapter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterRemotingSendGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouterDirect'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpInboundGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterPubsubLoggingChannel'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpAdmin'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean '_org.springframework.integration.errorLogger'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'logger.adapter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterRemotingSendGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouterDirect'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpInboundGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterPubsubLoggingChannel'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpAdmin'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean '_org.springframework.integration.errorLogger'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'logger.adapter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterRemotingSendGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouterDirect'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpInboundGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterPubsubLoggingChannel'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpAdmin'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean '_org.springframework.integration.errorLogger'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'logger.adapter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterRemotingSendGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouter'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterHeaderRouterDirect'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpInboundGateway'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dbmasterPubsubLoggingChannel'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'amqpAdmin'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean '_org.springframework.integration.errorLogger'
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+INFO Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.PollingConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#0
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#0' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.PollingConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#2
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#2' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'dbmasterHeaderRouter' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.PollingConsumer - stopped dbmasterHeaderRouter
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'dbmasterHeaderRouter' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'dbmasterHeaderRouterDirect' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.PollingConsumer - stopped dbmasterHeaderRouterDirect
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'dbmasterHeaderRouterDirect' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'amqpInboundGateway' of type [class de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway] to stop
+DEBUG Thread-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Shutting down Rabbit listener container
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'amqpInboundGateway' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.PollingConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#5
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#5' completed its stop procedure
+INFO Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 0
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Stopping bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor' of type [class org.springframework.integration.config.annotation.MessagingAnnotationPostProcessor]
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Successfully stopped bean 'org.springframework.integration.internalMessagingAnnotationPostProcessor'
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'dbmasterRemotingSendGateway' of type [class org.springframework.integration.gateway.GatewayProxyFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.gateway.GatewayProxyFactoryBean$MethodInvocationGateway - stopped dbmasterRemotingSendGateway
+INFO Thread-3 org.springframework.integration.gateway.GatewayProxyFactoryBean$MethodInvocationGateway - stopped dbmasterRemotingSendGateway
+INFO Thread-3 org.springframework.integration.gateway.GatewayProxyFactoryBean$MethodInvocationGateway - stopped dbmasterRemotingSendGateway
+INFO Thread-3 org.springframework.integration.gateway.GatewayProxyFactoryBean$MethodInvocationGateway - stopped dbmasterRemotingSendGateway
+INFO Thread-3 org.springframework.integration.gateway.GatewayProxyFactoryBean - stopped dbmasterRemotingSendGateway
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'dbmasterRemotingSendGateway' completed its stop procedure
+INFO Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase -2147483648
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#1
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#1' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'logger.adapter' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped logger.adapter
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'logger.adapter' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#3
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#3' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped org.springframework.integration.config.ConsumerEndpointFactoryBean#4
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'org.springframework.integration.config.ConsumerEndpointFactoryBean#4' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'dbmasterPubsubLoggingChannel' of type [class org.springframework.integration.config.ConsumerEndpointFactoryBean] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped dbmasterPubsubLoggingChannel
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'dbmasterPubsubLoggingChannel' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean 'amqpAdmin' of type [class org.springframework.amqp.rabbit.core.RabbitAdmin] to stop
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean 'amqpAdmin' completed its stop procedure
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Asking bean '_org.springframework.integration.errorLogger' of type [class org.springframework.integration.endpoint.EventDrivenConsumer] to stop
+INFO Thread-3 org.springframework.integration.endpoint.EventDrivenConsumer - stopped _org.springframework.integration.errorLogger
+DEBUG Thread-3 org.springframework.context.support.DefaultLifecycleProcessor - Bean '_org.springframework.integration.errorLogger' completed its stop procedure
+INFO Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@787d6a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,clientAMQPConfig,de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.rabbit.config.ClientAMQPConfig#0,org.springframework.context.annotation.ConfigurationClassPostProcessor#0,org.springframework.integration.internalDefaultConfiguringBeanFactoryPostProcessor,org.springframework.integration.internalMessagingAnnotationPostProcessor,org.springframework.integration.internalPublisherAnnotationBeanPostProcessor,endpointExecutor,org.springframework.scheduling.support.PeriodicTrigger#0,org.springframework.integration.context.defaultPollerMetadata,integrationConversionService,endpointErrorMapper,dbmasterToHttpChannelJPQL,dbmasterToHttpChannelIUDs,dbmasterToJmsChannel,dbmasterToJmsChannelDispatcher,org.springframework.integration.handler.BridgeHandler#0,org.springframework.integration.config.ConsumerEndpointFactoryBean#0,dbmasterToDirectJmsChannel,dbmasterFromDirectJmsChannel,dbmasterRawFromJmsChannel,dbmasterFromJmsChannel,org.springframework.integration.transformer.HeaderEnricher#0,org.springframework.integration.transformer.MessageTransformingHandler#0,org.springframework.integration.config.ConsumerEndpointFactoryBean#1,dbmasterJmsReplyChannel,dbmasterJmsReplyChannelUnfiltered,dbmasterJmsReplyStdoutChannel,dbmasterEndpointInChannel,dbmasterToHttpinvokerChannel,dbmasterToHttpinvokerBackChannel,dbmasterToHttpinvokerChannelDispatcher,org.springframework.integration.handler.BridgeHandler#1,org.springframework.integration.config.ConsumerEndpointFactoryBean#2,logger,org.springframework.integration.handler.LoggingHandler#0,logger.adapter,dbmasterRemotingSendGateway,org.springframework.integration.config.RouterFactoryBean#0,dbmasterHeaderRouter,org.springframework.integration.config.RouterFactoryBean#1,dbmasterHeaderRouterDirect,dbmaster,conversionServiceIntern,conversionService,syncExecutor,jmsGatewayErrorHandler,org.springframework.integration.config.ConsumerEndpointFactoryBean#3,amqpOutboundGateway,amqpInboundGateway,org.springframework.integration.config.ConsumerEndpointFactoryBean#4,amqpOutboundChannelAdapter,org.springframework.integration.handler.BridgeHandler#2,org.springframework.integration.config.ConsumerEndpointFactoryBean#5,dbmasterIUDpubsubChannel,org.springframework.integration.handler.LoggingHandler#1,dbmasterPubsubLoggingChannel,taskScheduler,inboundExecutor,DBRepository,indexService,org.springframework.transaction.config.internalTransactionAspect,org.springframework.data.graph.neo4j.config.Neo4jConfiguration#0,org.springframework.context.annotation.ConfigurationClassPostProcessor#1,graphDatabaseService,neoTemplate,doActualQueue,doActualBinding,connectionFactory,rabbitTemplate,jsonMessageConverter,serializerMessageConverter,dbmasterRequestQueue,doActualIUDExchange,amqpAdmin,graphDatabaseContext,graphRelationshipInstantiator,graphEntityInstantiator,finderFactory,neo4jRelationshipBacking,neo4jNodeBacking,transactionManager,configurationCheck,nullChannel,errorChannel,_org.springframework.integration.errorLogger]; root of factory hierarchy
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#8': [_org.springframework.integration.errorLogger]
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean 'indexService': [de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.IndexTest]
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy() on bean with name 'inboundExecutor'
+INFO Thread-3 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#7': [inboundExecutor]
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy() on bean with name 'amqpInboundGateway'
+DEBUG Thread-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Shutting down Rabbit listener container
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy() on bean with name 'connectionFactory'
+DEBUG Thread-3 org.springframework.amqp.rabbit.connection.SingleConnectionFactory - Closing shared Rabbit Connection: org.springframework.amqp.rabbit.connection.SimpleConnection@1ed1dbe
+DEBUG SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Consumer received ShutdownSignal, processing stopped.
+INFO SimpleAsyncTaskExecutor-5 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Closing consumer on channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,3)
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#6': [org.springframework.integration.config.RouterFactoryBean#1]
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#5': [org.springframework.integration.config.RouterFactoryBean#0]
+DEBUG SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Consumer received ShutdownSignal, processing stopped.
+INFO SimpleAsyncTaskExecutor-1 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Closing consumer on channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,4)
+DEBUG SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Consumer received ShutdownSignal, processing stopped.
+DEBUG SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Consumer received ShutdownSignal, processing stopped.
+INFO SimpleAsyncTaskExecutor-2 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Closing consumer on channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,2)
+DEBUG SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Consumer received ShutdownSignal, processing stopped.
+INFO SimpleAsyncTaskExecutor-3 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Closing consumer on channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,1)
+INFO SimpleAsyncTaskExecutor-4 de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.gateways.AMQPInboundGateway - Closing consumer on channel: AMQChannel(amqp://guest@escidoc3.nat:5672/,5)
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)#4': [org.springframework.integration.transformer.HeaderEnricher#0]
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean 'de.mpg.mis.neuesbibliothekssystem.dbendpoint.messaging.converter.ObjectToMessagePayload#1359c1b': [integrationConversionService]
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean 'de.mpg.mis.neuesbibliothekssystem.dbmaster.index.domain.conversion.DTOtoDBObject#914f6a': [conversionService]
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy() on bean with name 'endpointExecutor'
+INFO Thread-3 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+DEBUG Thread-3 org.springframework.beans.factory.support.DefaultListableBeanFactory - Retrieved dependent beans for bean '(inner bean)': [dbmasterRemotingSendGateway]
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy() on bean with name 'taskScheduler'
+INFO Thread-3 org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+DEBUG Thread-3 org.springframework.beans.factory.support.DisposableBeanAdapter - Invoking destroy method 'shutdown' on bean with name 'graphDatabaseService'

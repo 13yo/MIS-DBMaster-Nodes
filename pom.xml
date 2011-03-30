@@ -27,9 +27,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.version>3.0.5.RELEASE</spring.version>
-    <aspectj.version>1.6.11.M2</aspectj.version>
+    <aspectj.version>1.6.11.RELEASE</aspectj.version>
     <slf4j.version>1.6.1</slf4j.version>
-    <datastore-graph.version>1.0.0.M4</datastore-graph.version>
+    <datastore-graph.version>1.0.0.M5</datastore-graph.version>
     <neo4j.version>1.2-1.2</neo4j.version>
     <neo4j-kernel.version>1.2-1.2</neo4j-kernel.version>
   </properties>
@@ -84,6 +84,17 @@
       <url>http://m2.neo4j.org/</url>
       <name>Publicly available Maven 2 repository for Neo4j</name>
     </repository>
+    <repository>
+   		<id>MIS</id>
+   		<name>MIS Repository</name>
+   		<url>http://escidoc.mis.mpg.de:8088/archiva/repository/MIS/</url>
+   		<releases>
+     		<enabled>true</enabled>
+   		</releases>
+   		<snapshots>
+     		<enabled>true</enabled>
+   		</snapshots>
+  	</repository>
    <!--  <repository>
     	<releases>
     		<enabled>false</enabled>
@@ -206,6 +217,11 @@
   		<artifactId>dbmaster-remoting</artifactId>
   		<version>0.11.3.RC2</version>
   	</dependency>
+  	<dependency>
+        <groupId>de.mpg.mis.neuesbibliotheksystem.utils</groupId>
+        <artifactId>sybase</artifactId>
+        <version>3</version>
+    </dependency>
     <!-- 
     <dependency>
     	<groupId>org.apache.commons</groupId>

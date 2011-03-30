@@ -25,6 +25,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import org.neo4j.kernel.Traversal;
+import org.springframework.data.graph.core.NodeBacked;
 
 import de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DBsDTO;
 import de.mpg.mis.neuesbibliothekssystem.dbmaster.remote.dao.DTOE;
@@ -140,5 +141,31 @@ public class DBRepository {
 			    }
 			}));
 
+    }
+
+    public Long getNodeCountByEntityType(Class<? extends NodeBacked> clazz) {
+	NodeFinder<? extends NodeBacked> f = finderFactory
+		.createNodeEntityFinder(clazz);
+	if (log.isDebugEnabled()) {
+	    StringBuilder sb = new StringBuilder();
+	    sb.append("Im Baum existieren ").append(f.count())
+		    .append(" Nodes des Typs ").append(clazz.getSimpleName())
+		    .append(" .");
+	    log.debug(sb.toString());
+	}
+	return f.count();
+    }
+
+    public Iterable<DBs> getAllDBses() {
+	NodeFinder<DBs> f = finderFactory.createNodeEntityFinder(DBs.class);
+	return f.findAll();
+    }
+
+    @Transactional
+    public Iterable<DBs> getDBsesByIndex(String indexField, String indexValue) {
+	NodeFinder<DBs> f = finderFactory.createNodeEntityFinder(DBs.class);
+
+	return this.gdbs.index().existsForNodes("DBs") ? f
+		.findAllByPropertyValue("DBs", indexField, indexValue) : null;
     }
 }
